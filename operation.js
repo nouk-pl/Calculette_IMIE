@@ -1,4 +1,5 @@
-
+var nbtotal;
+var nb2;
 /**
  * Fonction d'addition
  */
@@ -20,4 +21,14 @@ function sub() {
 		nbTotal -= nb2;
 	}
 	return nbTotal;
+}
+
+/**
+*Fonction division
+*/
+function div(nbtotal, nb2) {
+  if(typof(nb1) === "number" && typeof(nb2) === "number") {
+      result = nbtotal / nb2;
+  }
+return nbtotal;
 }

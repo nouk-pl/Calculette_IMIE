@@ -5,7 +5,7 @@
  * @param  {number} nb2 [description]
  * @return {number}     [description]
  */
-function addition(nb1, nb2) {
+function add(nb1, nb2) {
 	var result = null;
 	if(typeof(nb1) === "number" && typeof(nb2) === "number") {	
 		result = nb1 + nb2;
@@ -19,7 +19,7 @@ function addition(nb1, nb2) {
  * @param  {number} nb2 [description]
  * @return {number}     [description]
  */
-function soustraction(nb1, nb2) {
+function sub(nb1, nb2) {
 	var result = null;
 	if(typeof(nb1) === "number" && typeof(nb2) === "number") {
 		result = nb1 - nb2;

@@ -5,8 +5,8 @@ FUNCTIONS NAME DEFINITION
 id de l'écran: screen
 chiffre de 0 à 9: function inputNumber(number)
 symbole égal: function equal()
-symbole addition: function add()
-symbole soustraction: function sub()
-symbole division: function div()
-symbole multiplication: function times()
+symbole addition: function add_opertor()
+symbole soustraction: function sub_operator()
+symbole division: function div_operator()
+symbole multiplication: function times_operator()
 symbole C : function clear()

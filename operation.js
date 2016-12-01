@@ -1,28 +1,23 @@
 
 /**
- * fonction d'addition
- * @param  {number} nb1 [description]
- * @param  {number} nb2 [description]
- * @return {number}     [description]
+ * Fonction d'addition
  */
-function add(nb1, nb2) {
-	var result = null;
-	if(typeof(nb1) === "number" && typeof(nb2) === "number") {	
-		result = nb1 + nb2;
+function add() {
+	
+	if(typeof(nbTotal) === "number" && typeof(nb2) === "number") {	
+		nbTotal += nb2;
 	}
-	return result;
+	return nbTotal;
 }
 
 /**
- * fonction de soustraction
- * @param  {number} nb1 [description]
- * @param  {number} nb2 [description]
- * @return {number}     [description]
+ * Fonction de soustraction
+ * @return {[type]} [description]
  */
-function sub(nb1, nb2) {
-	var result = null;
-	if(typeof(nb1) === "number" && typeof(nb2) === "number") {
-		result = nb1 - nb2;
+function sub() {
+	
+	if(typeof(nbTotal) === "number" && typeof(nb2) === "number") {
+		nbTotal -= nb2;
 	}
-	return result;
+	return nbTotal;
 }

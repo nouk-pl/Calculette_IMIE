@@ -13,6 +13,7 @@ Mako: #414247
 */
 
 body{
+    padding-top: 15px;
     width: 100%;
 }
 .calculator {
@@ -20,11 +21,12 @@ body{
     padding: 3rem;
     border: solid 2px black;
     border-radius: 20px;
+    text-align: center;
 }
 
 .calculator input{
     width: 100%;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .tile {
@@ -37,4 +39,5 @@ body{
     font-size: 30px;
     background-color: #414247;
     display: inline-block;
+    border: solid 3px #D7D7D7;
 }
